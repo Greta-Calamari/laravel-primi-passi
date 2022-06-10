@@ -19,3 +19,8 @@ Route::get('/', function () {
 Route::get('/main', function () {
     return view('main');
 });
+
+Route::get('/', function () {
+    return view('prodotti.prodotti');
+    // uso la dot notation per entrare nelle cartelle
+});
